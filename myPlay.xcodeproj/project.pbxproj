@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68F728D20F6EA2FE6B0BB20C /* Pods_myPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F19B601EBA76A36598293E2 /* Pods_myPlayUITests.framework */; };
+		973001331E11AF8500BE1A30 /* TestSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 973001321E11AF8500BE1A30 /* TestSpec.swift */; };
 		9759F73C1E11069600D0FE82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F73B1E11069600D0FE82 /* AppDelegate.swift */; };
 		9759F73E1E11069600D0FE82 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F73D1E11069600D0FE82 /* AlamofireViewController.swift */; };
 		9759F7411E11069600D0FE82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9759F73F1E11069600D0FE82 /* Main.storyboard */; };
@@ -17,7 +19,10 @@
 		9759F75F1E11069700D0FE82 /* myPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F75E1E11069700D0FE82 /* myPlayUITests.swift */; };
 		9759F76D1E1152C600D0FE82 /* Exam2Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F76C1E1152C600D0FE82 /* Exam2Controller.swift */; };
 		9759F76F1E1152ED00D0FE82 /* Exam3Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F76E1E1152ED00D0FE82 /* Exam3Controller.swift */; };
+		B42BEC51D2532B764B47FB6C /* Pods_myPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7F545651FC72D282861C0 /* Pods_myPlayTests.framework */; };
 		B5ED84A73EFC3638FA51D2ED /* Pods_myPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE83196E469A6D76C8EC6C5 /* Pods_myPlay.framework */; };
+		D129710F4A70FD4D3818BA58 /* Pods_Tests_myPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0858B2608EFF0A5EA82CF381 /* Pods_Tests_myPlayUITests.framework */; };
+		DC6D1163E76FBC524E2E687D /* Pods_Tests_myPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57B13DE5AB7414473E0307B /* Pods_Tests_myPlayTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0320C18598289F7FE84EEE58 /* Pods-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
 		045752EFCCD31919A2AC643B /* Pods-myPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlay/Pods-myPlay.release.xcconfig"; sourceTree = "<group>"; };
+		0858B2608EFF0A5EA82CF381 /* Pods_Tests_myPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_myPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		098EB8D3E9461E8D12D624E6 /* Pods-myPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7BDF1CD0C7200DBA33FA19FE /* Pods-myPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlay/Pods-myPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE83196E469A6D76C8EC6C5 /* Pods_myPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F19B601EBA76A36598293E2 /* Pods_myPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973001321E11AF8500BE1A30 /* TestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSpec.swift; sourceTree = "<group>"; };
 		9759F7381E11069600D0FE82 /* myPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9759F73B1E11069600D0FE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9759F73D1E11069600D0FE82 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +67,14 @@
 		9759F7601E11069700D0FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9759F76C1E1152C600D0FE82 /* Exam2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam2Controller.swift; sourceTree = "<group>"; };
 		9759F76E1E1152ED00D0FE82 /* Exam3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam3Controller.swift; sourceTree = "<group>"; };
+		9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C57B13DE5AB7414473E0307B /* Pods_Tests_myPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_myPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DCB7F545651FC72D282861C0 /* Pods_myPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
+		F5A6A287A84AEFE4369EEB88 /* Pods-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F70A692CEA441EA24D99B937 /* Pods-myPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6D1163E76FBC524E2E687D /* Pods_Tests_myPlayTests.framework in Frameworks */,
+				B42BEC51D2532B764B47FB6C /* Pods_myPlayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D129710F4A70FD4D3818BA58 /* Pods_Tests_myPlayUITests.framework in Frameworks */,
+				68F728D20F6EA2FE6B0BB20C /* Pods_myPlayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +112,14 @@
 			children = (
 				7BDF1CD0C7200DBA33FA19FE /* Pods-myPlay.debug.xcconfig */,
 				045752EFCCD31919A2AC643B /* Pods-myPlay.release.xcconfig */,
+				D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */,
+				E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */,
+				9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */,
+				B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */,
+				F5A6A287A84AEFE4369EEB88 /* Pods-myPlayTests.debug.xcconfig */,
+				0320C18598289F7FE84EEE58 /* Pods-myPlayTests.release.xcconfig */,
+				F70A692CEA441EA24D99B937 /* Pods-myPlayUITests.debug.xcconfig */,
+				098EB8D3E9461E8D12D624E6 /* Pods-myPlayUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -100,6 +129,9 @@
 			children = (
 				7DE83196E469A6D76C8EC6C5 /* Pods_myPlay.framework */,
 				DCB7F545651FC72D282861C0 /* Pods_myPlayTests.framework */,
+				C57B13DE5AB7414473E0307B /* Pods_Tests_myPlayTests.framework */,
+				0858B2608EFF0A5EA82CF381 /* Pods_Tests_myPlayUITests.framework */,
+				7F19B601EBA76A36598293E2 /* Pods_myPlayUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -146,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				9759F7531E11069700D0FE82 /* myPlayTests.swift */,
+				973001321E11AF8500BE1A30 /* TestSpec.swift */,
 				9759F7551E11069700D0FE82 /* Info.plist */,
 			);
 			path = myPlayTests;
@@ -187,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9759F7661E11069700D0FE82 /* Build configuration list for PBXNativeTarget "myPlayTests" */;
 			buildPhases = (
+				1D5DA7753F207531390DFFA9 /* [CP] Check Pods Manifest.lock */,
 				9759F74B1E11069700D0FE82 /* Sources */,
 				9759F74C1E11069700D0FE82 /* Frameworks */,
 				9759F74D1E11069700D0FE82 /* Resources */,
+				232636DF478B5A2084C1AED2 /* [CP] Embed Pods Frameworks */,
+				A18249E0CE7ED3068E46D3A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,9 +241,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9759F7691E11069700D0FE82 /* Build configuration list for PBXNativeTarget "myPlayUITests" */;
 			buildPhases = (
+				9128F5C34A9AE320C8252A04 /* [CP] Check Pods Manifest.lock */,
 				9759F7561E11069700D0FE82 /* Sources */,
 				9759F7571E11069700D0FE82 /* Frameworks */,
 				9759F7581E11069700D0FE82 /* Resources */,
+				79E18D6063C9FB0248FA7DF9 /* [CP] Embed Pods Frameworks */,
+				0551EEC8823EC9A204E35AB3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +335,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0551EEC8823EC9A204E35AB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D5DA7753F207531390DFFA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		232636DF478B5A2084C1AED2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		548B410B1DE5FAF3AFDB546A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -324,6 +408,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPlay/Pods-myPlay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79E18D6063C9FB0248FA7DF9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9128F5C34A9AE320C8252A04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A18249E0CE7ED3068E46D3A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE08AB5F3EDABB97C773573C /* [CP] Copy Pods Resources */ = {
@@ -360,6 +489,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				973001331E11AF8500BE1A30 /* TestSpec.swift in Sources */,
 				9759F7541E11069700D0FE82 /* myPlayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -533,6 +663,7 @@
 		};
 		9759F7671E11069700D0FE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -549,6 +680,7 @@
 		};
 		9759F7681E11069700D0FE82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -565,6 +697,7 @@
 		};
 		9759F76A1E11069700D0FE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CLK73XQTQE;
@@ -579,6 +712,7 @@
 		};
 		9759F76B1E11069700D0FE82 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CLK73XQTQE;

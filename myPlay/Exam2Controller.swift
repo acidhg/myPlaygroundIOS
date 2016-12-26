@@ -13,10 +13,19 @@ import SwiftyJSON
 class Exam2ViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
+    
+    override func updateViewConstraints() {
+        textView.snp.makeConstraints { make in
+            make.edges.equalTo(0)
+        }
+        super.updateViewConstraints()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        textView.textContainerInset = UIEdgeInsetsMake(10, 10, 10, 10)
+        textView.alwaysBounceVertical = true
         self.textView.text = "exam2"
     }
 

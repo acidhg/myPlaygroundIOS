@@ -9,13 +9,24 @@
 import UIKit
 import Alamofire
 import SwiftyJSON
+import SnapKit
 
 class AlamofireViewController: UIViewController {
     
     @IBOutlet weak var textView: UITextView!
 
+    override func updateViewConstraints() {
+        textView.snp.makeConstraints { make in
+            make.edges.equalTo(0)
+        }
+        super.updateViewConstraints()
+    }
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textView.textContainerInset = UIEdgeInsetsMake(10, 10, 10, 10)
+        textView.alwaysBounceVertical = true
 
         print("ab")
         var str = ""
@@ -27,7 +38,9 @@ class AlamofireViewController: UIViewController {
             switch response.result {
             case .success(let value):
                 let json = JSON(value)
-                str.append(json.rawString()! + "\n\n")
+                for _ in 0..<2 {
+                    str.append(json.rawString()! + "\n\n")
+                }
             case .failure(let error):
                 str.append(error.localizedDescription + "\n\n")
             }
