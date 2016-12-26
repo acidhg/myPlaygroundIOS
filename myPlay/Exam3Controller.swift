@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import Alamofire
+import SwiftyJSON
 
-class ViewController: UIViewController {
+class Exam3ViewController: UIViewController {
+    
+    @IBOutlet weak var textView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        self.textView.text = "exam3"
     }
 
     override func didReceiveMemoryWarning() {
