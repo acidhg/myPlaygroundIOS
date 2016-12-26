@@ -1,18 +1,14 @@
 //
-//  DataViewController.swift
-//  Play1_1
+//  ViewController.swift
+//  myPlay
 //
-//  Created by JOHYUNGEUN on 2016. 12. 22..
+//  Created by JOHYUNGEUN on 2016. 12. 26..
 //  Copyright © 2016년 Keukey. All rights reserved.
 //
 
 import UIKit
 
-class DataViewController: UIViewController {
-
-    @IBOutlet weak var dataLabel: UILabel!
-    var dataObject: String = ""
-
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,11 +18,6 @@ class DataViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        self.dataLabel!.text = dataObject
     }
 
 

@@ -1,14 +1,14 @@
 //
-//  Play1UITests.swift
-//  Play1UITests
+//  myPlayUITests.swift
+//  myPlayUITests
 //
-//  Created by JOHYUNGEUN on 2016. 12. 22..
+//  Created by JOHYUNGEUN on 2016. 12. 26..
 //  Copyright © 2016년 Keukey. All rights reserved.
 //
 
 import XCTest
 
-class Play1UITests: XCTestCase {
+class myPlayUITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Play1.xcodeproj">
+      location = "group:myPlay/myPlay.xcodeproj">
    </FileRef>
 </Workspace>
