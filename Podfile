@@ -2,7 +2,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '10.0'
 use_frameworks!
 
-target 'myPlay' do
+def shared_pods
   # network
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftyJSON'
@@ -23,13 +23,20 @@ target 'myPlay' do
   # pod 'PermissionScope'
   # pod 'SwifterSwift'
   # pod 'Bolts-Swift'
+end
+def test_pods
+  pod 'Quick'
+  pod 'Nimble'
+end
 
-  abstract_target 'Tests' do
-    inherit! :search_paths
-    target 'myPlayTests'
-    target 'myPlayUITests'
-
-    pod 'Quick'
-    pod 'Nimble'
-  end
+target 'myPlay' do
+  shared_pods
+end
+target 'myPlayTests' do
+  shared_pods
+  test_pods
+end
+target 'myPlayUITests' do
+  shared_pods
+  test_pods
 end

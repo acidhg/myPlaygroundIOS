@@ -23,7 +23,7 @@ class Exam2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("abc")
         textView.textContainerInset = UIEdgeInsetsMake(10, 10, 10, 10)
         textView.alwaysBounceVertical = true
         self.textView.text = "exam2"

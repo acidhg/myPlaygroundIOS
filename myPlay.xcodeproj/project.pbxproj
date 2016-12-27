@@ -43,13 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0320C18598289F7FE84EEE58 /* Pods-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
 		045752EFCCD31919A2AC643B /* Pods-myPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlay.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlay/Pods-myPlay.release.xcconfig"; sourceTree = "<group>"; };
 		0858B2608EFF0A5EA82CF381 /* Pods_Tests_myPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_myPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		098EB8D3E9461E8D12D624E6 /* Pods-myPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6B79BD4774FE2E88AD560FD9 /* Pods-myPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7BDF1CD0C7200DBA33FA19FE /* Pods-myPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlay/Pods-myPlay.debug.xcconfig"; sourceTree = "<group>"; };
 		7DE83196E469A6D76C8EC6C5 /* Pods_myPlay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F19B601EBA76A36598293E2 /* Pods_myPlayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F5945A08B791082DEF1ED7 /* Pods-myPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		973001321E11AF8500BE1A30 /* TestSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestSpec.swift; sourceTree = "<group>"; };
 		9759F7381E11069600D0FE82 /* myPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9759F73B1E11069600D0FE82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -67,14 +67,10 @@
 		9759F7601E11069700D0FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9759F76C1E1152C600D0FE82 /* Exam2Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam2Controller.swift; sourceTree = "<group>"; };
 		9759F76E1E1152ED00D0FE82 /* Exam3Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exam3Controller.swift; sourceTree = "<group>"; };
-		9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2D5EDB69CBF5125F0F4EBFC /* Pods-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C57B13DE5AB7414473E0307B /* Pods_Tests_myPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_myPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDEEA82CAD40D29840251F03 /* Pods-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
 		DCB7F545651FC72D282861C0 /* Pods_myPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
-		F5A6A287A84AEFE4369EEB88 /* Pods-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F70A692CEA441EA24D99B937 /* Pods-myPlayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,14 +108,10 @@
 			children = (
 				7BDF1CD0C7200DBA33FA19FE /* Pods-myPlay.debug.xcconfig */,
 				045752EFCCD31919A2AC643B /* Pods-myPlay.release.xcconfig */,
-				D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */,
-				E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */,
-				9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */,
-				B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */,
-				F5A6A287A84AEFE4369EEB88 /* Pods-myPlayTests.debug.xcconfig */,
-				0320C18598289F7FE84EEE58 /* Pods-myPlayTests.release.xcconfig */,
-				F70A692CEA441EA24D99B937 /* Pods-myPlayUITests.debug.xcconfig */,
-				098EB8D3E9461E8D12D624E6 /* Pods-myPlayUITests.release.xcconfig */,
+				B2D5EDB69CBF5125F0F4EBFC /* Pods-myPlayTests.debug.xcconfig */,
+				CDEEA82CAD40D29840251F03 /* Pods-myPlayTests.release.xcconfig */,
+				96F5945A08B791082DEF1ED7 /* Pods-myPlayUITests.debug.xcconfig */,
+				6B79BD4774FE2E88AD560FD9 /* Pods-myPlayUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -347,7 +339,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		1D5DA7753F207531390DFFA9 /* [CP] Check Pods Manifest.lock */ = {
@@ -377,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		548B410B1DE5FAF3AFDB546A /* [CP] Check Pods Manifest.lock */ = {
@@ -422,7 +414,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayUITests/Pods-Tests-myPlayUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPlayUITests/Pods-myPlayUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9128F5C34A9AE320C8252A04 /* [CP] Check Pods Manifest.lock */ = {
@@ -452,7 +444,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests-myPlayTests/Pods-Tests-myPlayTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FE08AB5F3EDABB97C773573C /* [CP] Copy Pods Resources */ = {
@@ -638,10 +630,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLK73XQTQE;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = myPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies";
@@ -658,10 +647,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLK73XQTQE;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = myPlay/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "$(inherited) \"-D\" \"COCOAPODS\" -Xfrontend -debug-time-function-bodies";
@@ -673,7 +659,7 @@
 		};
 		9759F7671E11069700D0FE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D394E3322B25448201EC73DC /* Pods-Tests-myPlayTests.debug.xcconfig */;
+			baseConfigurationReference = B2D5EDB69CBF5125F0F4EBFC /* Pods-myPlayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -690,7 +676,7 @@
 		};
 		9759F7681E11069700D0FE82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E61D12E521885BE63484E234 /* Pods-Tests-myPlayTests.release.xcconfig */;
+			baseConfigurationReference = CDEEA82CAD40D29840251F03 /* Pods-myPlayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -707,7 +693,7 @@
 		};
 		9759F76A1E11069700D0FE82 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9929AC3A268DEB7040943662 /* Pods-Tests-myPlayUITests.debug.xcconfig */;
+			baseConfigurationReference = 96F5945A08B791082DEF1ED7 /* Pods-myPlayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CLK73XQTQE;
@@ -722,7 +708,7 @@
 		};
 		9759F76B1E11069700D0FE82 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0F30B250DBF00E1A61E7C16 /* Pods-Tests-myPlayUITests.release.xcconfig */;
+			baseConfigurationReference = 6B79BD4774FE2E88AD560FD9 /* Pods-myPlayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CLK73XQTQE;
