@@ -18,7 +18,7 @@ class RealmViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var tableView: UITableView!
     var cats: [Cat] = []
     var realm: Realm!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -26,7 +26,7 @@ class RealmViewController: UIViewController, UITableViewDataSource {
         realm = try! Realm()
         cats = Array(realm.objects(Cat.self))
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -56,7 +56,7 @@ class RealmViewController: UIViewController, UITableViewDataSource {
             realm.add(cat)
         }
     }
-
+    
     // MARK: UITableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return cats.count
@@ -69,4 +69,3 @@ class RealmViewController: UIViewController, UITableViewDataSource {
         return cell!
     }
 }
-

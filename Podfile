@@ -6,7 +6,7 @@ def shared_pods
   # network
   pod 'Alamofire', '~> 4.0'
   pod 'SwiftyJSON'
-  # pod 'Kingfisher', '~> 3.0'
+  pod 'Kingfisher', '~> 3.0'
   # database
   pod "SugarRecord/CoreData"
   pod 'RealmSwift'
@@ -15,18 +15,18 @@ def shared_pods
   pod 'Firebase/Auth'
   # layout
   pod 'SnapKit', '~> 3.0'
-  # pod 'ReactiveCocoa', '5.0.0-alpha.6'
-  # pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
-  # pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'ReactiveCocoa', '5.0.0-rc.1'
+  pod 'Spring', :git => 'https://github.com/MengTo/Spring.git', :branch => 'swift3'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   # UI elements
-  # pod 'Eureka', '~> 2.0.0-beta.1'
-  # pod 'MGSwipeTableCell'
-  # pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
-  # pod 'FontBlaster'
+  pod 'Eureka', '~> 2.0.0-beta.1'
+  pod 'MGSwipeTableCell'
+  pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+  pod 'FontBlaster'
   # General
-  # pod 'PermissionScope'
-  # pod 'SwifterSwift'
-  # pod 'Bolts-Swift'
+  pod 'PermissionScope'
+  pod 'SwifterSwift'
+  pod 'Bolts-Swift'
 end
 def test_pods
   pod 'Quick'

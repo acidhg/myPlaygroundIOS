@@ -21,10 +21,12 @@
 		9759F75F1E11069700D0FE82 /* myPlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F75E1E11069700D0FE82 /* myPlayUITests.swift */; };
 		9759F76D1E1152C600D0FE82 /* CoreDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F76C1E1152C600D0FE82 /* CoreDataViewController.swift */; };
 		9759F76F1E1152ED00D0FE82 /* SugarRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9759F76E1E1152ED00D0FE82 /* SugarRecordViewController.swift */; };
-		978BD45A1E1256D700F26387 /* RealmController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978BD4591E1256D700F26387 /* RealmController.swift */; };
+		978BD45A1E1256D700F26387 /* RealmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978BD4591E1256D700F26387 /* RealmViewController.swift */; };
 		978BD45C1E1256E100F26387 /* FIRDatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978BD45B1E1256E100F26387 /* FIRDatabaseController.swift */; };
 		978BD45E1E125AAF00F26387 /* CoreDataCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978BD45D1E125AAF00F26387 /* CoreDataCenter.swift */; };
 		97D638D11E12E23100306D1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 97D638D01E12E23100306D1D /* GoogleService-Info.plist */; };
+		97E5DF0C1E139AEE009E2DDB /* ReactiveCocoaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E5DF0B1E139AEE009E2DDB /* ReactiveCocoaViewController.swift */; };
+		97E5DF0E1E139B3B009E2DDB /* TempleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97E5DF0D1E139B3B009E2DDB /* TempleteViewController.swift */; };
 		B42BEC51D2532B764B47FB6C /* Pods_myPlayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB7F545651FC72D282861C0 /* Pods_myPlayTests.framework */; };
 		B5ED84A73EFC3638FA51D2ED /* Pods_myPlay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DE83196E469A6D76C8EC6C5 /* Pods_myPlay.framework */; };
 		D129710F4A70FD4D3818BA58 /* Pods_Tests_myPlayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0858B2608EFF0A5EA82CF381 /* Pods_Tests_myPlayUITests.framework */; };
@@ -75,10 +77,12 @@
 		9759F7601E11069700D0FE82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9759F76C1E1152C600D0FE82 /* CoreDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataViewController.swift; sourceTree = "<group>"; };
 		9759F76E1E1152ED00D0FE82 /* SugarRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SugarRecordViewController.swift; sourceTree = "<group>"; };
-		978BD4591E1256D700F26387 /* RealmController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmController.swift; sourceTree = "<group>"; };
+		978BD4591E1256D700F26387 /* RealmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmViewController.swift; sourceTree = "<group>"; };
 		978BD45B1E1256E100F26387 /* FIRDatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDatabaseController.swift; sourceTree = "<group>"; };
 		978BD45D1E125AAF00F26387 /* CoreDataCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataCenter.swift; sourceTree = "<group>"; };
 		97D638D01E12E23100306D1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		97E5DF0B1E139AEE009E2DDB /* ReactiveCocoaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ReactiveCocoaViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		97E5DF0D1E139B3B009E2DDB /* TempleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleteViewController.swift; sourceTree = "<group>"; };
 		B2D5EDB69CBF5125F0F4EBFC /* Pods-myPlayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C57B13DE5AB7414473E0307B /* Pods_Tests_myPlayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_myPlayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDEEA82CAD40D29840251F03 /* Pods-myPlayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myPlayTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-myPlayTests/Pods-myPlayTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -173,7 +177,9 @@
 				9759F73D1E11069600D0FE82 /* AlamofireViewController.swift */,
 				9759F76C1E1152C600D0FE82 /* CoreDataViewController.swift */,
 				9759F76E1E1152ED00D0FE82 /* SugarRecordViewController.swift */,
-				978BD4591E1256D700F26387 /* RealmController.swift */,
+				978BD4591E1256D700F26387 /* RealmViewController.swift */,
+				97E5DF0B1E139AEE009E2DDB /* ReactiveCocoaViewController.swift */,
+				97E5DF0D1E139B3B009E2DDB /* TempleteViewController.swift */,
 				978BD45B1E1256E100F26387 /* FIRDatabaseController.swift */,
 				9759F73F1E11069600D0FE82 /* Main.storyboard */,
 				9759F7451E11069600D0FE82 /* Assets.xcassets */,
@@ -488,7 +494,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97E5DF0C1E139AEE009E2DDB /* ReactiveCocoaViewController.swift in Sources */,
 				978BD45C1E1256E100F26387 /* FIRDatabaseController.swift in Sources */,
+				97E5DF0E1E139B3B009E2DDB /* TempleteViewController.swift in Sources */,
 				9759F73E1E11069600D0FE82 /* AlamofireViewController.swift in Sources */,
 				9759F76F1E1152ED00D0FE82 /* SugarRecordViewController.swift in Sources */,
 				978BD45E1E125AAF00F26387 /* CoreDataCenter.swift in Sources */,
@@ -497,7 +505,7 @@
 				9759F7441E11069600D0FE82 /* myPlay.xcdatamodeld in Sources */,
 				975102971E1296B400B11A45 /* Dog+CoreDataClass.swift in Sources */,
 				9759F73C1E11069600D0FE82 /* AppDelegate.swift in Sources */,
-				978BD45A1E1256D700F26387 /* RealmController.swift in Sources */,
+				978BD45A1E1256D700F26387 /* RealmViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
